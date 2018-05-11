@@ -14,12 +14,12 @@ To run your app on iOS:
 
    \- or -
 
-   Open ios/wallet.xcodeproj in Xcode
-   Hit the Run button
+1. Open ios/wallet.xcodeproj in Xcode
+2. Hit the Run button
 
 To run your app on Android:
 
-   Have an Android emulator running (quickest way to get started), or a device connected
+1. Have an Android emulator running (quickest way to get started), or a device connected
 
 ```
    cd /path/to/this/project
