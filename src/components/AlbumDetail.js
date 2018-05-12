@@ -39,7 +39,7 @@ const AlbumDetail = ({ album }) => {
       </CardSection>
 
       <CardSection>
-        <Button />
+        <Button righteousJohn={() => console.log(title)} />
       </CardSection>
     </Card>
   );
