@@ -19,10 +19,5 @@ rules:
   # do not enforce dangling commas in multiline lists
   comma-dangle: 0
 
-  # opt for single quotes in JSX to be consistent w/JS
-  jsx-quotes:
-    - error
-    - prefer-single
-
   # do not require consistent linebreaks in (e.g.) import destructuring
   object-curly-newline: 0
