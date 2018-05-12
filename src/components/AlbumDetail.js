@@ -1,12 +1,12 @@
 // Import
 import React from 'react';
 import { View, Text, Image } from 'react-native';
-import Card from './Card'
-import CardSection from './CardSection'
+import Card from './Card';
+import CardSection from './CardSection';
 
 // Create
 const AlbumDetail = ({ album }) => {
-  const { title, artist, thumbnail_image, image } = album;
+  const { title, artist, thumbnailImage, image } = album;
   const {
     headerContentStyle,
     headerTextStyle,
@@ -18,10 +18,10 @@ const AlbumDetail = ({ album }) => {
   return (
     <Card>
       <CardSection>
-        <View>
+        <View style={thumbnailContainerStyle}>
           <Image
             style={thumbnailStyle}
-            source={{ uri: thumbnail_image }}
+            source={{ uri: thumbnailImage }}
           />
         </View>
         <View style={headerContentStyle}>
@@ -62,7 +62,7 @@ const styles = {
     flex: 1,
     width: null
   }
-}
+};
 
 
 // export
